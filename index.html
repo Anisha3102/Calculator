@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container container-light" id="page">
+      <div class="calculator calculator-light" id="main">
+        <input
+          type="text"
+          placeholder="0"
+          class="input-light"
+          id="output-space"
+          disabled
+        />
+        <button class="operator btn-light" id="clr">AC</button>
+        <button class="operator btn-light" id="del">DEL</button>
+        <button class="operator btn-light key" id="percentage">%</button>
+        <button class="operator btn-light key" id="divide">/</button>
+        <button class="btn-light key" id="b7">7</button>
+        <button class="btn-light key" id="b8">8</button>
+        <button class="btn-light key" id="b9">9</button>
+        <button class="operator btn-light key" id="multiply">*</button>
+        <button class="btn-light key" id="b4">4</button>
+        <button class="btn-light key" id="b5">5</button>
+        <button class="btn-light key" id="b6">6</button>
+        <button class="operator btn-light key" id="subtract">-</button>
+        <button class="btn-light key" id="b1">1</button>
+        <button class="btn-light key" id="b2">2</button>
+        <button class="btn-light key" id="b3">3</button>
+        <button class="operator btn-light key" id="add">+</button>
+        <button class="btn-light key" id="decimal">.</button>
+        <button class="btn-light" id="b0">0</button>
+        <button class="equal equal-light" id="result">=</button>
+      </div>
+      <button class="mode-light" id="mode">Dark Mode</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
